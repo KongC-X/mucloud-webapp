@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>慕云游商城--我的</title>
+  </head>
+  <body>
+    <div>
+      <div class="pic">
+        <div class="cover"></div>
+        <div class="photo"></div>
+        <div class="name">萌萌哒的瑞萌萌</div>
+      </div>
+
+      <div class="mine">
+        <div class="mine-item">
+          <div class="mine-item-text">我的行程计划</div>
+          <div class="mine-item-icon"></div>
+        </div>
+        <div class="mine-item">
+          <div class="mine-item-text">我的收藏</div>
+          <div class="mine-item-icon"></div>
+        </div>
+        <div class="mine-item">
+          <div class="mine-item-text">售后于客服</div>
+          <div class="mine-item-icon"></div>
+        </div>
+        <div class="mine-item">
+          <div class="mine-item-text">我的优惠券</div>
+          <div class="mine-item-icon"></div>
+        </div>
+        <div class="mine-item">
+          <div class="mine-item-text">常用旅客管理</div>
+          <div class="mine-item-icon"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 标签栏 -->
+    <div class="tabbar-layout">
+      <% include('../../components/tabbar/tabbar.art', { active: 'personal' }) %>
+    </div>
+  </body>
+</html>

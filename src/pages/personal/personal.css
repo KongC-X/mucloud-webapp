@@ -1,0 +1,58 @@
+body {
+  background: #fff;
+}
+
+.pic {
+  width: 100%;
+  height: 350px;
+}
+
+.cover {
+  width: 100%;
+  height: 150px;
+  background: url("./images/Cover.png");
+}
+
+.photo {
+  width: 180px;
+  height: 180px;
+  /* border-radius: 50%; */
+  background: url("./images/User_base.png") no-repeat;
+  /* border: 5px solid #FFFFFF;
+  box-shadow: 0 10px 25px 8px rgba(0, 0, 0, 0.08); */
+  position: absolute;
+  top: 12%;
+  left: 24.5%;
+}
+
+.name {
+  position: absolute;
+  top: 36.4%;
+  left: 31.1%;
+  margin-top: 10px;
+  vertical-align: middle;
+  font-family: PingFangSC-Regular;
+  font-size: 20px;
+  color: #203152;
+  letter-spacing: 0;
+}
+
+.mine {
+  width: 90%;
+  margin-left: 5%;
+  height: 300px;
+}
+
+.mine-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.mine-item-icon {
+  width: 20px;
+  height: 20px;
+  background: url("./images/right.svg") no-repeat;
+}
